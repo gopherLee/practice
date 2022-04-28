@@ -28,12 +28,6 @@ public class test {
                 e.printStackTrace();
             }
         }).start();
-        new Thread(() -> {
-            try {
-                zeo.even(value -> System.out.print(value));
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-        }).start();
+
     }
 }
